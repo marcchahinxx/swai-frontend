@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fade-text {
+    background: linear-gradient(to right, black 60%, red 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+  }
+  .text-gradient {
+    background: linear-gradient(to right, black, #d00000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-gradient-soft {
+    background: linear-gradient(to right, #333, #9f1239);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
